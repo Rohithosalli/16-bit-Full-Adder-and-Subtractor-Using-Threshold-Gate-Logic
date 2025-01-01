@@ -20,15 +20,14 @@ This repository contains the design, implementation, and simulation of a 16-bit 
      * tfa_16.v              # 16-bit Full Adder
      * tfs_16.v              # 16-bit Full Subtractor
      * trashold_full.v       # 1-bit Threshold Full Adder
+     * trashold_half.v       # 1-bit Threshold half Adder
      * trashold_sfull.v      # 1-bit Threshold Full Subtractor
-2) Testbenches/
-     * tfa_16b_tb.v          # Testbench for 16-bit Full Adder
-     * tfs_16b_tb.v          # Testbench for 16-bit Full Subtractor
-3) Docs/REPORT: 
+     * trashold_shalf.v      # 1-bit Threshold half Subtractor
+2) Docs/REPORT: 
       * Architecture_Diagrams # Diagrams of the full adder and subtractor
       * Performance_Results   # Performance metrics comparison
-4) LICENSE                   # Project License
-5) README.md                 # Repository Overview
+3) LICENSE                   # Project License
+4) README.md                 # Repository Overview
 
 
 ## Getting Started

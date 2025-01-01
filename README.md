@@ -16,15 +16,19 @@ This repository contains the design, implementation, and simulation of a 16-bit 
   
 ## File Structure
 
-1) tfa_16.v              # 16-bit Full Adder
-2) tfs_16.v              # 16-bit Full Subtractor
-3) trashold_full.v       # 1-bit Threshold Full Adder
-4) trashold_sfull.v      # 1-bit Threshold Full Subtractor
-5) Docs/REPORT: 
+1) Verilog/
+     * tfa_16.v              # 16-bit Full Adder
+     * tfs_16.v              # 16-bit Full Subtractor
+     * trashold_full.v       # 1-bit Threshold Full Adder
+     * trashold_sfull.v      # 1-bit Threshold Full Subtractor
+2) Testbenches/
+     * tfa_16b_tb.v          # Testbench for 16-bit Full Adder
+     * tfs_16b_tb.v          # Testbench for 16-bit Full Subtractor
+3) Docs/REPORT: 
       * Architecture_Diagrams # Diagrams of the full adder and subtractor
       * Performance_Results   # Performance metrics comparison
-7) LICENSE                   # Project License
-8) README.md                 # Repository Overview
+4) LICENSE                   # Project License
+5) README.md                 # Repository Overview
 
 
 ## Getting Started
